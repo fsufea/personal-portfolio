@@ -1,14 +1,15 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import pythonImg1 from "../assets/img/alarm.png";
-import pythonImg2 from "../assets/img/stopwatch.png";
-import pythonImg3 from "../assets/img/weather.png";
-import pythonImg4 from "../assets/img/dice.png";
-import pythonImg5 from "../assets/img/hangman.png";
-import pythonImg6 from "../assets/img/rockpaperscissors.png";
-import pythonImg7 from "../assets/img/atm.png";
-import pythonImg8 from "../assets/img/number.png";
-import pythonImg9 from "../assets/img/digitalclock.png";
+import pythonImg2 from "../assets/img/digitalclock.png";
+import pythonImg3 from "../assets/img/stopwatch.png";
+import pythonImg4 from "../assets/img/weather.png";
+import pythonImg5 from "../assets/img/dice.png";
+import pythonImg6 from "../assets/img/hangman.png";
+import pythonImg7 from "../assets/img/rockpaperscissors.png";
+import pythonImg8 from "../assets/img/atm.png";
+import pythonImg9 from "../assets/img/number.png";
+
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -23,46 +24,47 @@ export const Projects = () => {
       imgUrl: pythonImg1,
       url: "https://convertio.co/download/ea68f31a9ceb88bf630a93a180d042c566367c/"
     },
+     {
+      title: "Digital Clock",
+      description: "This Python script creates a simple digital clock using the PyQt5 library. The clock displays the current time in a window, updating every second.",
+      imgUrl: pythonImg2,
+    },
     {
       title: " Stopwatch",
       description: "This Python code creates a simple stopwatch application using PyQt5. It features a GUI with buttons for starting, stopping, and resetting the stopwatch. The stopwatch updates every 10 milliseconds using a QTimer.",
-      imgUrl: pythonImg2,
+      imgUrl: pythonImg3,
     },
     {
       title: "Weather App with API",
       description: "This Python code creates a weather app using PyQt5 and the OpenWeatherMap API. The app allows users to input a city name, retrieve weather data, and display the temperature, weather description, and an emoji representing the current weather conditions.",
-      imgUrl: pythonImg3,
+      imgUrl: pythonImg4,
     },
     {
       title: "Dice",
       description: "This Python script simulates rolling a specified number of dice (between 1 and 6 sides). The user is prompted to input the number of dice, and then random values between 1 and 6 are assigned to each die. The dice faces are represented as ASCII art stored in a dictionary, and the results are displayed in a horizontal format. The total sum of the dice rolls is also calculated and printed.",
-      imgUrl: pythonImg4,
+      imgUrl: pythonImg5,
     },
     {
       title: "Guess The Word (Hangman)",
       description: "This Python script implements a simple Hangman game. It selects a random word from a predefined list (wordslist) and prompts the user to guess letters. Each incorrect guess progresses the 'hangman' drawing, and the user loses if the drawing reaches completion. The game ends when the word is fully guessed or the hangman is fully drawn.",
-      imgUrl: pythonImg5,
+      imgUrl: pythonImg6,
     },
     {
       title: "Rock Paper Scissors",
       description: "This Python script is a simple implementation of the classic 'Rock, Paper, Scissors' game. The player is prompted to input their choice (rock, paper, or scissors), while the computer randomly selects its choice. The game then compares the player's and computer's choices and announces the winner based on the game rules. If it's a tie, it will state that.",
-      imgUrl: pythonImg6,
+      imgUrl: pythonImg7,
     },
      {
       title: "Banking Program",
       description: "This Python script is a simple banking program where users can check their balance, deposit money, and withdraw funds. The program runs in a loop, continuously showing the menu and processing user input until the user selects the option to exit. It handles invalid input, such as negative deposit or withdrawal amounts, and shows error messages when necessary.",
-      imgUrl: pythonImg7,
+      imgUrl: pythonImg8,
     },
      {
       title: "Guess the Number",
       description: "This Python script implements a simple number guessing game. The game randomly selects a number between 1 and 100, and the player is tasked with guessing the number. The player is continuously prompted to guess until the correct number is guessed.",
-      imgUrl: pythonImg8,
-    },
-     {
-      title: "Digital Clock",
-      description: "This Python script creates a simple digital clock using the PyQt5 library. The clock displays the current time in a window, updating every second.",
       imgUrl: pythonImg9,
     },
+    
   ];
 
   const webProjects = [
