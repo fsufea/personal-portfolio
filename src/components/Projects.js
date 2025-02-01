@@ -24,7 +24,7 @@ export const Projects = () => {
       url: "https://convertio.co/download/ea68f31a9ceb88bf630a93a180d042c566367c/"
     },
     {
-      title: "Python Stopwatch",
+      title: " Stopwatch",
       description: "This Python code creates a simple stopwatch application using PyQt5. It features a GUI with buttons for starting, stopping, and resetting the stopwatch. The stopwatch updates every 10 milliseconds using a QTimer.",
       imgUrl: pythonImg2,
     },
