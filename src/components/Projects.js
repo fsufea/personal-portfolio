@@ -164,7 +164,7 @@ export const Projects = () => {
                       <p>🌍 Delve Into the World of My Innovative Flutter Projects Built with Dart! 🌍 </p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="sixth">
-                      <p>🌕 My projects emphasize user-centered design, featuring clean aesthetics, intuitive navigation, and responsive layouts. Utilizing tools like Figma and Adobe XD, I create visually appealing interfaces that enhance user experience and engagement. 🌕</p>
+                      <p>🌕 My projects focus on user-friendly design with clean looks, easy navigation, and mobile responsiveness. I use tools like Figma and Adobe XD to create attractive interfaces that improve user experience. 🌕</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
