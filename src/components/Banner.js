@@ -53,7 +53,7 @@ export const Banner = () => {
                             <span className="tagline">WELCOME TO MY PORTFOLIO</span>
                             <h1>{`Hi! I'm Faraayuni `}<span className="wrap">{text}</span></h1>
                             <p class="justified-text">
-                                I am a graduate of International Islamic University Malaysia (IIUM), earning First Class Honours in Bachelor of Computer Science (Honours) with a specialization in Software Engineering, along with a CGPA of 3.75.
+                                I am a graduate of International Islamic University Malaysia (IIUM), earning First Class Honours in Bachelor of Computer Science (Honours) with a specialization in Software Engineering.
                                 My coursework covers Software Testing, Object-Oriented Programming, Web Technologies, Mobile Application Development, Software Design and Architecture, Project Management in Software Engineering, Requirement Engineering, and Database Systems. 
                             </p>
                             <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>   
