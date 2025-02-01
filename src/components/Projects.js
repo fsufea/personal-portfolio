@@ -108,23 +108,25 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Python</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">C# Programming</Nav.Link>
+                      <Nav.Link eventKey="second">C# | C++ | C</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Design</Nav.Link>
+                      <Nav.Link eventKey="third">Web development</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="fourth">Design</Nav.Link>
+                      <Nav.Link eventKey="fourth">Java</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="fifth">Web Developments</Nav.Link>
+                      <Nav.Link eventKey="fifth">Mobile Apps</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="sixth">Design</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  <p></p>
                     <Tab.Pane eventKey="first">
+                      <p>🚀 Explore My Powerful Python Projects! 🚀 </p>                    
                       <Row>
                         {
                           python.map((project, index) => {
@@ -139,6 +141,8 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
+                      <p>🛸 Explore My Dynamic Software Development Projects! 🛸<br></br>  
+                            Built with C, C++, and C# using the .NET framework, my projects deliver high-performance applications, robust functionality, and innovative solutions.</p>                
                       <Row>
                           {cSharp.map((project, index) => {
                             return (
@@ -150,10 +154,17 @@ export const Projects = () => {
                           })}
                         </Row>                    </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>🛸 Explore My Dynamic Web Development Projects! 🛸<br></br>
+                      Built with PHP, HTML, CSS, JavaScript, and React, our projects deliver seamless functionality, stunning designs, and interactive user experiences.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="fourth">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>🔭 Journey Through My Impactful Java Projects! 🔭</p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="fifth">
+                      <p>🌍 Delve Into the World of My Innovative Flutter Projects Built with Dart! 🌍 </p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="sixth">
+                      <p>🌕 My projects emphasize user-centered design, featuring clean aesthetics, intuitive navigation, and responsive layouts. Utilizing tools like Figma and Adobe XD, I create visually appealing interfaces that enhance user experience and engagement. 🌕</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
