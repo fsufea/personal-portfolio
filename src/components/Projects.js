@@ -72,10 +72,9 @@ export const Projects = () => {
       imgUrl: pythonImg9,
       url: "https://github.com/fsufea/python/blob/main/numberguessinggame.py"
     },
-    
   ];
 
-  const webProjects = [
+  const cSharp = [
     {
       title: "Web Project 1",
       description: "A web project description here",
@@ -109,13 +108,19 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Python</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Web Developments</Nav.Link>
+                      <Nav.Link eventKey="second">C# Programming</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Design</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="fourth">Design</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="fifth">Web Developments</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="sixth">Design</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -135,7 +140,7 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <Row>
-                          {webProjects.map((project, index) => {
+                          {cSharp.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
