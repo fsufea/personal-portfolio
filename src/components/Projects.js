@@ -22,7 +22,7 @@ export const Projects = () => {
       title: "Python Alarm Clock",
       description: "This Python program is an alarm clock that alerts the user at a specified time. It uses the pygame library to play an alarm sound when the current time matches the user-set alarm time. ",
       imgUrl: pythonImg1,
-      url: "https://convertio.co/download/ea68f31a9ceb88bf630a93a180d042c566367c/"
+      url: "https://github.com/fsufea/python/blob/main/alarmclock.py"
     },
      {
       title: "Digital Clock",
