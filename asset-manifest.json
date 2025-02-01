@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.3d15ae28.css",
-    "main.js": "/personal-portfolio/static/js/main.4a47747b.js",
+    "main.js": "/personal-portfolio/static/js/main.afffe504.js",
     "static/js/453.b21437c2.chunk.js": "/personal-portfolio/static/js/453.b21437c2.chunk.js",
-    "static/media/profile.png": "/personal-portfolio/static/media/profile.e9fd3c7053682dc3f6ff.png",
     "static/media/color-sharp.png": "/personal-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/personal-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg.png": "/personal-portfolio/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/personal-portfolio/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/weather.png": "/personal-portfolio/static/media/weather.3d17b059f4dcf7b2b2cb.png",
     "static/media/stopwatch.png": "/personal-portfolio/static/media/stopwatch.3ef5dfff2373e2828bcd.png",
     "static/media/CentraNo2-Bold.ttf": "/personal-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -30,11 +30,11 @@
     "static/media/nav-icon1.svg": "/personal-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/logo.svg": "/personal-portfolio/static/media/logo.a1770e72ede90faa903026ce5d666528.svg",
     "main.3d15ae28.css.map": "/personal-portfolio/static/css/main.3d15ae28.css.map",
-    "main.4a47747b.js.map": "/personal-portfolio/static/js/main.4a47747b.js.map",
+    "main.afffe504.js.map": "/personal-portfolio/static/js/main.afffe504.js.map",
     "453.b21437c2.chunk.js.map": "/personal-portfolio/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d15ae28.css",
-    "static/js/main.4a47747b.js"
+    "static/js/main.afffe504.js"
   ]
 }
